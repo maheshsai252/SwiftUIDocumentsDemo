@@ -13,8 +13,10 @@ struct SwiftUIDocumentsDemoApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+            ProjectsListView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            }
         }
     }
 }

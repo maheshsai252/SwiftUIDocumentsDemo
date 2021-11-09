@@ -17,6 +17,17 @@
 		B18AC65826E77E45006BBE91 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18AC63F26E77E43006BBE91 /* Persistence.swift */; };
 		B18AC65926E77E45006BBE91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B18AC64026E77E45006BBE91 /* Assets.xcassets */; };
 		B18AC65A26E77E45006BBE91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B18AC64026E77E45006BBE91 /* Assets.xcassets */; };
+		B18AC66626E77E97006BBE91 /* iCloudHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18AC66526E77E97006BBE91 /* iCloudHandler.swift */; };
+		B18AC66826E77EA6006BBE91 /* LocalHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18AC66726E77EA6006BBE91 /* LocalHandler.swift */; };
+		B18AC66C26E7814C006BBE91 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18AC66B26E7814C006BBE91 /* CloudKit.framework */; };
+		B18AC66E26E782C3006BBE91 /* ProjectReportsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18AC66D26E782C3006BBE91 /* ProjectReportsViewModel.swift */; };
+		B18AC67026E7846C006BBE91 /* TrackerDocumentCDHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18AC66F26E7846C006BBE91 /* TrackerDocumentCDHandler.swift */; };
+		B18AC67326E784F5006BBE91 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18AC67226E784F5006BBE91 /* Extension.swift */; };
+		B18AC67626E78837006BBE91 /* ProjectsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18AC67526E78837006BBE91 /* ProjectsListView.swift */; };
+		B18AC67826E788C3006BBE91 /* AddProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18AC67726E788C3006BBE91 /* AddProjectView.swift */; };
+		B18AC67A26E78995006BBE91 /* ProjectDocumentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18AC67926E78995006BBE91 /* ProjectDocumentListView.swift */; };
+		B18AC67C26E789C6006BBE91 /* ProjectDocumentPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18AC67B26E789C6006BBE91 /* ProjectDocumentPicker.swift */; };
+		B18AC67E26E78A09006BBE91 /* ProjectDocumentOpener.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18AC67D26E78A09006BBE91 /* ProjectDocumentOpener.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +41,18 @@
 		B18AC64D26E77E45006BBE91 /* SwiftUIDocumentsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDocumentsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B18AC64F26E77E45006BBE91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B18AC65026E77E45006BBE91 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		B18AC66526E77E97006BBE91 /* iCloudHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCloudHandler.swift; sourceTree = "<group>"; };
+		B18AC66726E77EA6006BBE91 /* LocalHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalHandler.swift; sourceTree = "<group>"; };
+		B18AC66926E7806E006BBE91 /* SwiftUIDocumentsDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUIDocumentsDemo.entitlements; sourceTree = "<group>"; };
+		B18AC66B26E7814C006BBE91 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/System/Library/Frameworks/CloudKit.framework; sourceTree = DEVELOPER_DIR; };
+		B18AC66D26E782C3006BBE91 /* ProjectReportsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectReportsViewModel.swift; sourceTree = "<group>"; };
+		B18AC66F26E7846C006BBE91 /* TrackerDocumentCDHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerDocumentCDHandler.swift; sourceTree = "<group>"; };
+		B18AC67226E784F5006BBE91 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		B18AC67526E78837006BBE91 /* ProjectsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsListView.swift; sourceTree = "<group>"; };
+		B18AC67726E788C3006BBE91 /* AddProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProjectView.swift; sourceTree = "<group>"; };
+		B18AC67926E78995006BBE91 /* ProjectDocumentListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDocumentListView.swift; sourceTree = "<group>"; };
+		B18AC67B26E789C6006BBE91 /* ProjectDocumentPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDocumentPicker.swift; sourceTree = "<group>"; };
+		B18AC67D26E78A09006BBE91 /* ProjectDocumentOpener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDocumentOpener.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B18AC66C26E7814C006BBE91 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,16 +77,22 @@
 		B18AC63526E77E43006BBE91 = {
 			isa = PBXGroup;
 			children = (
+				B18AC66926E7806E006BBE91 /* SwiftUIDocumentsDemo.entitlements */,
 				B18AC63A26E77E43006BBE91 /* Shared */,
 				B18AC64726E77E45006BBE91 /* iOS */,
 				B18AC64E26E77E45006BBE91 /* macOS */,
 				B18AC64626E77E45006BBE91 /* Products */,
+				B18AC66A26E7814C006BBE91 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		B18AC63A26E77E43006BBE91 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				B18AC67426E78823006BBE91 /* Views */,
+				B18AC67126E784E5006BBE91 /* Extensions */,
+				B18AC66426E77E79006BBE91 /* Document ViewModels */,
+				B18AC66326E77E6A006BBE91 /* Document Handlers */,
 				B18AC63D26E77E43006BBE91 /* SwiftUIDocumentsDemoApp.swift */,
 				B18AC63E26E77E43006BBE91 /* ContentView.swift */,
 				B18AC63F26E77E43006BBE91 /* Persistence.swift */,
@@ -96,6 +126,52 @@
 				B18AC65026E77E45006BBE91 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		B18AC66326E77E6A006BBE91 /* Document Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				B18AC66526E77E97006BBE91 /* iCloudHandler.swift */,
+				B18AC66726E77EA6006BBE91 /* LocalHandler.swift */,
+				B18AC66F26E7846C006BBE91 /* TrackerDocumentCDHandler.swift */,
+			);
+			path = "Document Handlers";
+			sourceTree = "<group>";
+		};
+		B18AC66426E77E79006BBE91 /* Document ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B18AC66D26E782C3006BBE91 /* ProjectReportsViewModel.swift */,
+			);
+			path = "Document ViewModels";
+			sourceTree = "<group>";
+		};
+		B18AC66A26E7814C006BBE91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B18AC66B26E7814C006BBE91 /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B18AC67126E784E5006BBE91 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B18AC67226E784F5006BBE91 /* Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B18AC67426E78823006BBE91 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B18AC67526E78837006BBE91 /* ProjectsListView.swift */,
+				B18AC67726E788C3006BBE91 /* AddProjectView.swift */,
+				B18AC67926E78995006BBE91 /* ProjectDocumentListView.swift */,
+				B18AC67B26E789C6006BBE91 /* ProjectDocumentPicker.swift */,
+				B18AC67D26E78A09006BBE91 /* ProjectDocumentOpener.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,10 +271,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B18AC67626E78837006BBE91 /* ProjectsListView.swift in Sources */,
+				B18AC67C26E789C6006BBE91 /* ProjectDocumentPicker.swift in Sources */,
+				B18AC67A26E78995006BBE91 /* ProjectDocumentListView.swift in Sources */,
+				B18AC67326E784F5006BBE91 /* Extension.swift in Sources */,
+				B18AC66E26E782C3006BBE91 /* ProjectReportsViewModel.swift in Sources */,
+				B18AC67826E788C3006BBE91 /* AddProjectView.swift in Sources */,
+				B18AC67026E7846C006BBE91 /* TrackerDocumentCDHandler.swift in Sources */,
+				B18AC66826E77EA6006BBE91 /* LocalHandler.swift in Sources */,
 				B18AC65126E77E45006BBE91 /* SwiftUIDocumentsDemo.xcdatamodeld in Sources */,
 				B18AC65726E77E45006BBE91 /* Persistence.swift in Sources */,
+				B18AC66626E77E97006BBE91 /* iCloudHandler.swift in Sources */,
 				B18AC65326E77E45006BBE91 /* SwiftUIDocumentsDemoApp.swift in Sources */,
 				B18AC65526E77E45006BBE91 /* ContentView.swift in Sources */,
+				B18AC67E26E78A09006BBE91 /* ProjectDocumentOpener.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +418,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftUIDocumentsDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 23LBXQWLYP;
 				ENABLE_PREVIEWS = YES;
@@ -354,6 +441,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftUIDocumentsDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 23LBXQWLYP;
 				ENABLE_PREVIEWS = YES;
